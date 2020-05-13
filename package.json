@@ -1,0 +1,45 @@
+{
+  "name": "star-rating-svg-react-hooks",
+  "version": "1.0.0",
+  "description": "star rating component in react hooks using SVG",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/narendra-sabale/star-rating-svg-react-hooks.git"
+  },
+  "keywords": [
+    "star",
+    "rating",
+    "svg",
+    "react",
+    "hooks"
+  ],
+  "author": "Narendra Sabale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/narendra-sabale/star-rating-svg-react-hooks/issues"
+  },
+  "homepage": "https://github.com/narendra-sabale/star-rating-svg-react-hooks#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "rollup": "^2.7.5",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-css-only": "^2.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.3.0"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.x"
+  }
+}
